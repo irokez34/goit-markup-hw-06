@@ -664,7 +664,76 @@ gap: 120px;
 {
   background: #31D0AA;
 }
-
+.footer-input
+{
+  padding: 8px 16px;
+  font-size: 12px;
+line-height: 2;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  color: #FFFFFF;
+  outline: none;
+   border: 1px solid #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.footer-input::placeholder
+{
+  color: #FFFFFF;
+}
+.footer-send
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.footer-contact-btn
+{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding: 8px 24px;
+  gap: 16px;
+  width: 165px;
+  height: 40px;
+  background-color: #4D5AE5;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.5;
+  cursor: pointer;
+  border: transparent;
+  transition:background-color var(--transition-duration);
+}
+.footer-contact-btn:is( :hover, :focus)
+{
+  background-color:#404BBF;
+}
+.footer-send-icon
+{
+  fill: #FFFFFF;
+}
+.footer-input-text
+{
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+ margin-bottom:16px;
+ display: block;
+}
+.footer-btn-icon
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
 /* -----------------------------------------------MODAL--------------------------------------------- */
 
 .backdrop
@@ -833,24 +902,28 @@ transition:background-color var(--transition-duration);
 {
   background-color: #404BBF;
 }
-.modal-check
+
+.modal-field
 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 8px;
-  
+  width: 100%;
 }
 
 .check-text
 {
   display: flex;
   align-items: center;
-  font-size: 12px;
   position: relative;
+  margin-left: 25px;
+  color: #8E8F99;
+  font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
 }
 .check-text span
 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
 height: 16px;
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -863,7 +936,6 @@ fill: transparent;
   background: #404BBF;
   border: none;
   fill:#F4F4FD;
-  background-image: url(../images/true-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
