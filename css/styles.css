@@ -599,7 +599,13 @@ fill:#404BBF;
   padding-bottom: 100px;
   background-color: var(--nav-color);
 }
-
+.footer-info-contact
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
 .footer-soc-list
 {
   display: flex;
@@ -634,7 +640,9 @@ margin-bottom: 16px;
 .footer-container
 {
 display: flex;
-gap: 120px;
+gap: 80px;
+justify-content: center;
+align-items: center;
 }
 .footer-soc-item
 {
@@ -747,7 +755,7 @@ align-items: center;
 }
 .modal
 {
-  
+  padding: 72px 24px 24px;
 position: absolute;
 width: 408px;
 min-height: 576px;
@@ -795,7 +803,7 @@ border-radius: 4px;
 }
 .modal-title
 { 
-  margin-top: 72px;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
 line-height: 1.5;
@@ -886,7 +894,7 @@ margin-bottom: 4px;
 { 
   
   display: block;
-  margin: 24px 120px;
+ margin: 0 auto;
   padding: 16px 32px;
  color: #FFFFFF;
   cursor: pointer;
@@ -907,7 +915,10 @@ transition:background-color var(--transition-duration);
 {
   width: 100%;
 }
-
+.check-input-container
+{
+  margin-bottom: 24px;
+}
 .check-text
 {
   display: flex;
