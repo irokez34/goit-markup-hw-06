@@ -912,11 +912,12 @@ transition:background-color var(--transition-duration);
   width: 100%;
   margin-bottom: 8px;
 }
-.check-input-container
+.modal-field:nth-child(5)
 {
   margin-top: 16px;
   margin-bottom: 24px;
 }
+
 .check-text
 {
   display: flex;
